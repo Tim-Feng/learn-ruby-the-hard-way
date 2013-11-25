@@ -1,0 +1,49 @@
+'whatever' - quote, everything between quote is string in Ruby
+"whatever" - double quote, everything between double-quote is string in Ruby
+# - pound/hash/octothorpe, everything after the # is ignored by Ruby
+#{variables} - used for string interpolation, substitute the value for variable in a 
+statement, since everything inside the #{} is variable/argument, it will run or calculate
+ like Ruby, bolean as well.
+% - percent(modulus in math, string variables in puts and prints statements)
+%d - represents a digits(or decimal number) in a text string
+%s - represents a string in a text string
+[] - used to separate arguments from puts and print statements, for example, for multiple
+arguments using %, you can list all the arguments between the [] and separate by camma. 
+and since it's arguments, you can do everything that arguments can do, like math inside 
+the []
+puts - used to "put" a "string" of characters on the screen along with a new line. Of 
+course you can use puts only and it will show like </br>
+print - just like puts, but print will not show in a new line.
+\\ - escape a backslash
+\n - escape for a new line
+\t - insert tab
+<<TEXT - start code for a block, block means a paragraph, remember to end with the same 
+TEXT
+\" - to escape a double-quote inside double-quote
+\' - to escape a quote inside quote
+\ - escape is also work in <<TEXT
+gets - get a string from standard input(usually the keyboard)
+chomp - typically used with gets, to remove a new line character from a line of text
+require - used to add library(module/feature) of other sources in script, like Ruby Gems
+open - open a file or a URL
+do - reflects the start of a block of code to be run together
+close - close a block section of code
+ARGV - the argument value(constant), holds arguments entered on the command line
+STDIN - used with methods when ARGV is used as well, to differentiate between the two
+File - used to define and enact file options
+File.close() - close a file
+File.exist - check to see if a file already exists or not
+File.open() - open a file to use
+File.open(filename, 'w') - specifically open a file to write
+File.read() - read the content of a file
+File.readline() - read a specific numbered line in a file
+File.seek() - locate a particular spot of in a file
+File.truncate() - used to remove content of a file, inside the bracket is the filesize
+File.write() - write line or characters to a file
+$0 - it's the name of the script
+size - puts the size(number of characters) of a variable. If the variable is a string, it
+show how many characters, if the variable is the name of a file, and you haven't open it 
+yet, Ruby will still return how many characters of the file name, until you open the file
+, Ruby can read the content inside and act on content.
+seek - to change the position of "file pointer"
++= - used to do the loop for addition
